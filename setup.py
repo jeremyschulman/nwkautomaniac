@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="nwkautomaniac",
-    version="0.0.1",
+    version="0.0.2",
     author="Jeremy Schulman",
     author_email="nwkautomaniac@gmail.com",
     description=("network automation utility library from @nwkautomanic"),
