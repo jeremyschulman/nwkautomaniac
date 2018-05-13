@@ -17,8 +17,12 @@
 #   THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 #   (INCLUDING NEGLIGENCE), EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+import six
 import re
 from itertools import product
+
+if six.PY3:
+    xrange = range
 
 __all__ = ['bracket_expansion']
 
